@@ -7,6 +7,8 @@ export default function Main() {
         <div className={style.containerMd}>
           <div className={`${style.dFlex} ${style.flexCenter}`}>
             <Card />
+            <Card />
+            <Card />
           </div>
         </div>
       </div>
