@@ -1,14 +1,12 @@
 .card {
     width: 400px;
     background-color: #f0f0f0;
-    border-radius: 8px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
     text-align: center;
     
   }
 
   .card h2 {
-    margin-bottom: 10px;
     font-size: 15px;
     font-weight: bold;
     text-align: left;
@@ -27,17 +25,29 @@
     padding: 10px 20px;
     border-radius: 4px;
     cursor: pointer;
- 
+    width: 150px;
+    height: 40px;
   }
   
   .card button:hover {
     background-color: #ffbb00;
   }
   .card img{
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
     width: 400px;
     
   }
 
-.card h2, .card p {
+.card h2, .card p , .card button {
     margin-left: 20px;
+    margin-bottom: 10px;
+}
+
+
+.dFlex{
+    display: flex;
+}
+.flexColumn{
+    flex-direction: column;
 }
