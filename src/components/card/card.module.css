@@ -5,6 +5,10 @@
     text-align: center;
     margin: 30px;
   }
+  .card:hover{
+    transition: transform 0.2s linear;
+    transform: scale(1.1);
+  }
 
   .card h2 {
     font-size: 15px;
