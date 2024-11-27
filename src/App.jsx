@@ -5,7 +5,6 @@ import "./App.css";
 import Main from "../components/hero/Hero.jsx";
 import Header from "../components/header/Header";
 import Footer from "../components/footer";
-import Card from "../components/card/card";
 
 function App() {
   return (
